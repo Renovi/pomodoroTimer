@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+</head>
+<body>
+
+    <div class="main">
+        <div id="work" class="flex">
+            <button id="minusP" class="btn">-</button>
+            <div id="work-time"><span id="work-min"></span>:<span id="work-sec"></span></div>
+            <button id="plusP" class="btn">+</button>
+        </div>
+
+        <div id="break" class="flex">
+            <button id="minusB" class="btn">-</button>
+            <div id="break-time"> <span id="break-min"></span>:<span id="break-sec"></span></div>
+            <button id="plusB" class="btn">+</button>
+        </div>
+
+        <div id="control" class="flex"> 
+           <button id="go" class="btn">GO!</button>
+        </div>
+     </div>
+
+     <div class="pomidor flex">
+         <img id="pomidor" src="pomidor.png" alt="smaczny pomidor">
+     </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
